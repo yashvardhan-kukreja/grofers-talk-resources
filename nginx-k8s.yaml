@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: quillhash-service
+  name: nginx-service
   labels:
-    app: quillhash
+    app: nginx
 spec:
   ports:
   - protocol: TCP
